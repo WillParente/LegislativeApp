@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegislativeApp", "src\LegislativeApp\LegislativeApp.csproj", "{BA8F0E5B-1686-4839-A792-8D4FD6FD586E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A163F44D-EEDD-449A-A6EE-CF619959C727}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49DE9030-FB9C-4A2F-AE6B-95965A00C0F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegislativeApp.UnitTests", "tests\LegislativeApp.Tests\LegislativeApp.UnitTests.csproj", "{73B1C9AC-9F82-4F4D-B1E4-28FAE9261BE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA8F0E5B-1686-4839-A792-8D4FD6FD586E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8F0E5B-1686-4839-A792-8D4FD6FD586E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8F0E5B-1686-4839-A792-8D4FD6FD586E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8F0E5B-1686-4839-A792-8D4FD6FD586E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B1C9AC-9F82-4F4D-B1E4-28FAE9261BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B1C9AC-9F82-4F4D-B1E4-28FAE9261BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B1C9AC-9F82-4F4D-B1E4-28FAE9261BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B1C9AC-9F82-4F4D-B1E4-28FAE9261BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA8F0E5B-1686-4839-A792-8D4FD6FD586E} = {A163F44D-EEDD-449A-A6EE-CF619959C727}
+		{73B1C9AC-9F82-4F4D-B1E4-28FAE9261BE3} = {49DE9030-FB9C-4A2F-AE6B-95965A00C0F8}
+	EndGlobalSection
+EndGlobal
